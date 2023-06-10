@@ -11,7 +11,7 @@ inputBox.onkeyup = (e)=>{
 
     if (e.key === 'Enter'){
       if(userData){
-        window.open(`pages/${userData}.html`, '_blank')
+        window.open(`pages/${userData}.html`)
       }
     }
 
